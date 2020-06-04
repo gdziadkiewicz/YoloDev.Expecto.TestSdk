@@ -6,7 +6,6 @@
     <!-- puts build outputs in build folder in nupkg -->
     <BuildOutputTargetFolder>build</BuildOutputTargetFolder>
     <PackageId>$(MSBuildProjectName)</PackageId>
-    <OutputType Condition=" '$(TargetFramework)' == 'netcoreapp2.1' ">Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
