@@ -2,7 +2,7 @@
   <Target Name="SetVersion" BeforeTargets="Build;Pack">
     <PropertyGroup>
       <GitVersionExec><![CDATA[
-        bash '$(MSBuildThisFileDirectory)/script/git-version.sh' get 2>/dev/null
+        bash '$(MSBuildThisFileDirectory)/script/git-version.sh' get
       ]]></GitVersionExec>
     </PropertyGroup>
 
